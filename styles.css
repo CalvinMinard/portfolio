@@ -104,6 +104,10 @@ main {
   gap: 5rem;
 }
 
+main h3 {
+  font-weight: 400;
+}
+
 a:visited {
   color: var(--color-highlight);
   text-decoration: none;
