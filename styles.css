@@ -184,6 +184,26 @@ section h2,
     align-items: start;
   }
 
+  @media (max-width: 900px) {
+    body {
+      display: block; /* collapse the grid */
+    }
+
+    header {
+      position: static; /* remove sticky on mobile */
+      width: 100%;
+      padding: 1rem;
+    }
+
+    main {
+      width: 100%;
+    }
+
+    main section {
+      flex-direction: column; /* collapse your two-column sections */
+    }
+  }
+
   /*left column*/
   header {
     position: relative;
