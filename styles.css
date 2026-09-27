@@ -158,6 +158,26 @@ section h2,
   border-radius: 50%;
 }
 
+@media (max-width: 900px) {
+  body {
+    display: block;
+  }
+
+  header {
+    position: static;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  main {
+    width: 100%;
+  }
+
+  main section {
+    flex-direction: column;
+  }
+}
+
 /* ---------------- DESKTOP LAYOUT ---------------- */
 
 .profile-image-container {
@@ -182,26 +202,6 @@ section h2,
   body {
     grid-template-columns: minmax(300px, 450px) 1fr;
     align-items: start;
-  }
-
-  @media (max-width: 900px) {
-    body {
-      display: block; /* collapse the grid */
-    }
-
-    header {
-      position: static; /* remove sticky on mobile */
-      width: 100%;
-      padding: 1rem;
-    }
-
-    main {
-      width: 100%;
-    }
-
-    main section {
-      flex-direction: column; /* collapse your two-column sections */
-    }
   }
 
   /*left column*/
