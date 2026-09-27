@@ -106,6 +106,7 @@ main {
 
 main section div h3 {
   font-weight: 300;
+  color: var(--color-accent);
 }
 
 a:visited {
