@@ -156,8 +156,8 @@ section h2,
 /* ---------------- DESKTOP LAYOUT ---------------- */
 
 .profile-image-container {
-  width: 125px; /* hard width */
-  height: 160px; /* keeps it square */
+  width: 115px; /* hard width */
+  height: 125px;
   margin: 0 auto; /* centers on mobile */
   overflow: hidden;
   display: block; /* stops grid/flex expansion */
@@ -166,7 +166,7 @@ section h2,
 
 .profile-image-container img {
   object-fit: cover;
-  max-width: 125px;
+  max-width: 115px;
   width: 100%;
   height: auto;
   order: 2;
