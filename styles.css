@@ -182,7 +182,7 @@ section h2,
   /*left column*/
   header {
     position: relative;
-    min-height: 100vh; /* left column fills full screen height */
+    min-height: auto;
     padding-right: 1rem;
     overflow-y: auto;
     width: 380px;
