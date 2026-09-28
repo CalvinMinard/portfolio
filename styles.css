@@ -22,7 +22,7 @@ body {
 }
 
 p {
-  line-height: 1.5rem;
+  line-height: 1.25rem;
 }
 
 p::selection,
@@ -71,7 +71,7 @@ header {
 }
 
 header h1,
-header h4,
+header h3,
 header h5,
 .lightText {
   color: var(--color-highlight);
